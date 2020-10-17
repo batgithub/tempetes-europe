@@ -60,7 +60,7 @@ function init() {
         // Parsing JSON string into object
         let tempetes = JSON.parse(response);
         let tempetes_date_parsed = []
-        let array_of_years = get_array_of_years('1987', '2020')
+        let array_of_years = get_array_of_years('1953', '2020')
       
         for (const tempete of tempetes){
                 tempetes_date_parsed.push({Name:tempete.Name, Date: new Date(tempete.Date).getFullYear(), ressource:tempete.Ressource})           
@@ -89,18 +89,13 @@ function init() {
             data: {
                 labels: array_of_years,
                 datasets: [{
-                    label: 'Nombre de tempètes',
+                    label: 'Nombre de tempètes entre 1953 et 2020',
                     data: datas,
+                    
                 }]
             },
             options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }]
-                }
+                maintainAspectRatio: false
             }
         });
 
