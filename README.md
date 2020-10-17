@@ -6,3 +6,5 @@ Suite à la tempête Alex qui a eu lieu en france en septembre 2020, je me suis 
 ![Graphique de l'évolution du nombre de tempêtes par ans depuis 1953  ](https://batgithub.github.io/tempetes-europe/preview.png)
 
 Preview sur https://batgithub.github.io/tempetes-europe/
+
+Vous pouvez accéder à la liste des tempètes avec le lien vers wikipedia sur https://batgithub.github.io/tempetes-europe/tempetes.json
