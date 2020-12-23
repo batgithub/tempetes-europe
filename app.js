@@ -89,7 +89,7 @@ function init() {
             data: {
                 labels: array_of_years,
                 datasets: [{
-                    label: 'Nombre de tempètes entre 1953 et 2020',
+                    label: 'Nombre de tempètes',
                     data: datas,
                     
                 }]
